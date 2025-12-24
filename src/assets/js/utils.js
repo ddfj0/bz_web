@@ -68,8 +68,8 @@ export const menuAndBar = defineStore('main', () => {
     const bzHour = ref(date.getHours());
     const boolSex = ref(true);
 
-    const appid = ref("wx1a8b0b1e0b4f2b9b");
-    const openid = ref("");
+    const appid = ref("your_wx_appid_here");
+    const openid = ref("your_wx_openid_here");
 
     return { isMobile, posLeft, posWidth, posHeight, 
         user_id, user_name, run_status,

@@ -48,9 +48,9 @@ const fnHref = () => {
 window.curUrl = fnHref();
 
 //// 获取微信的openid
-window.wxAppid = 'wx95c349d43f1db2be';
-//window.wxOpenid = 'oYr3t6Rjtsa80OFin7Kb92xioQjE';
-window.wxOpenid = '';
+window.wxAppid = 'your_wx_appid_here';
+//window.wxOpenid = 'your_test_openid_here';
+window.wxOpenid = 'your_wx_openid_here';
 
 const fnIsWeChat = () =>{
     //判断是否为微信内部登录
